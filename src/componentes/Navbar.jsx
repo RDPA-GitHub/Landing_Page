@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-dark">
       <div className="container w-50 text-light fs-4 fw-bold align-middle">
-        Start Bootstrap
+        <a href="#" className="nav-link">
+          Start Bootstrap
+        </a>
       </div>
       <NavUl />
     </nav>

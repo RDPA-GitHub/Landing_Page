@@ -13,7 +13,7 @@ const Card = () => {
 
 
       return (
-        <div className='col-md-3 mb-3  ' key={valor.id}>
+        <div className='col-md-3 mb-3 ' key={valor.id}>
           <CardRender>
             <CardImg
               url_img={valor.avatar}

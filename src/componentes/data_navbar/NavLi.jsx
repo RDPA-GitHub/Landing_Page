@@ -1,9 +1,11 @@
 import React from "react";
 
-const NavLi = ({valor_li}) => {
+const NavLi = ({ valor_li }) => {
   return (
     <li className="nav-item p-2 ">
-      {valor_li} 
+      <a href="#" className="nav-link p-0 text-light">
+        {valor_li}
+      </a>
     </li>
   );
 }
