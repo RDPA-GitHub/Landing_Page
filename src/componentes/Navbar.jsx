@@ -4,9 +4,9 @@ import NavUl from "./data_navbar/NavUl";
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-dark">
-      <div className="container w-50 text-light fs-4 fw-bold align-middle">
-        <a href="#" className="nav-link">
+    <nav className="nav bg-dark">
+      <div className="container w-50  fs-4 fw-bold align-middle">
+        <a href="#" className="nav-link text-light">
           Start Bootstrap
         </a>
       </div>
